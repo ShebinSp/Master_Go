@@ -15,3 +15,11 @@
    The array called accounts that consists of 3 integers has it's type [3]int
 	
 * we can access the index of an array by index number and Index of an array starts from zero, means the first value in the array will be at index zero [0].
+
+### Multi dimensional arrays
+
+* An array inside the array is called multidimensional array like matrix.
+
+### **Arrays Equality**
+
+* *2 arrays are equal if they have the same length and the same elements in the same order; so order matters. Then the equal assignment operator creates a copy of an array, the arrays are not connected, are saved in different memory locations.*
