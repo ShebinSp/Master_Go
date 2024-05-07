@@ -34,3 +34,5 @@ The first arg is the name of the file and in Second arg 0 will completely empty 
 * `os.Rename(name string)` is used to rename or move a file.
 
 * `os.Remove(name string)` is used to remove a file.
+
+* **A `defer` statement defers or postpones the execution of a function until the surrounding function returns.**

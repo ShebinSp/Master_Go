@@ -38,7 +38,7 @@ func main() {
 		log.Fatal("Error: ", err)
 	}
 	// When we done with the file we must close it
-	newFile.Close() // using defer key word is recommended if you want to work with the file - defer newFile.Close()
+	newFile.Close() // idiomatic way - defer newFile.Close()
 
 
 	// How to OPEN and CLOSE an existing file
