@@ -1,0 +1,4 @@
+Buffered Writer(`bufio.Writer) : It's an abstraction provided by Go's `bufio` package.
+Instead of writing directly to the file every time you call `Write` , which can be slow 
+because it involves interacting with the operating system frequently, 
+the buffered writer gathers the data you want to write into a buffer, a temporary space in memory.
