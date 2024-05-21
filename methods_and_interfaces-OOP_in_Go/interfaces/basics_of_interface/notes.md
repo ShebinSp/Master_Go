@@ -8,7 +8,7 @@
 
 * Interfaces are not generic types like in other languages like Java.
 
-* In Go, we declare an interface like a struct or any other named type, using the type keyword, a name, and then the interface type.
+* In Go, we declare an interface like a struct or any other named type, using the type keyword, a name, and then the `interface` type.
 
 * The interface contains only the signature of the methods, but not their implementation. The signature of a method means its name, input, parameters and return values.
 
