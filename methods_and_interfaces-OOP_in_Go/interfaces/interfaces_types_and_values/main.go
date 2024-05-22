@@ -40,8 +40,8 @@ func print(s shape){
 func main() {
 	// INTERFACES TYPES AND VALUES
 	// The zero value of an interface type is `nil`. The `nil` neither value nor concrete type,
-	//  and calling a method on a `nil` interface is a runtime error. However,
-	//it is common to write methods that successfully handle being called with a nil receiver.
+	// and calling a method on a `nil` interface is a runtime error. However,
+	// it is common to write methods that successfully handle being called with a nil receiver.
 
 	var s shape
 	fmt.Printf("value of s: %T\n",s)
