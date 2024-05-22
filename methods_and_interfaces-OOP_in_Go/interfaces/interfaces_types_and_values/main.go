@@ -25,20 +25,6 @@ func (r rectangle) area() float64 {
 func (r rectangle) perimeter() float64 {
 	return 2 * (r.width + r.height)
 }
-func (r rectangle) method3() {
-	fmt.Println("hello")
-}
-
-func printCircle(c circle) {
-	fmt.Println("Shape: ", c)
-	fmt.Println("Area: ",c.area())
-	fmt.Println("Perimeter: ",c.perimeter())
-}
-func printRectangle(r rectangle){
-	fmt.Println("Shape: ", r)
-	fmt.Println("Area: ",r.area())
-	fmt.Println("Perimeter: ",r.perimeter())
-}
 
 type shape interface{
 	area() float64
